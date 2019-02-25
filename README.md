@@ -15,7 +15,7 @@ This is an app to store brazilian CPF numbers for a development challenge.
     - Express 4.16.4
     - Redis 2.8.0
     - node-input-validator 3.1.0
-    - body-parser 1.18.3)
+    - body-parser 1.18.3
   - Docker containering 18.9.2
   - Redis server 10.15.1
 
@@ -24,7 +24,7 @@ a Dockerfile and package.json to define app container. For a quick setup see and
 run using 'docker-compose.yml' version 3 to start app container and redis
 container.
 
-All of this project are focused on easy and quick way to create put app online.
+All of this project are focused on easy and quick way to create and put app online.
 
 ### Installation
 
