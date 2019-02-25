@@ -1,0 +1,15 @@
+version: '3'
+services:
+  myapp:
+    container_name: docker_web_app
+    restart: always
+    build: .
+    ports:
+      - '3000:3000'
+    links:
+      - redis
+  redis:
+    container_name: redis-container
+    ports:
+      - '6379:6379'
+    image: 'redis:5.0.3'
